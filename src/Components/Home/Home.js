@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Home.css'
 import shoron from '../../images/IMG_20180301_171906.jpg'
 import Skills from '../Skills/Skills';
@@ -36,9 +35,7 @@ const Home = () => {
        <Blogs></Blogs>
        <About></About>
        <Contact></Contact>
-        </section>
-
-        
+        </section>  
       );
 };
 

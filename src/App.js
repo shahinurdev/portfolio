@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import './app.css';
 import About from "./Components/About/About";
@@ -27,8 +26,6 @@ function App() {
     <Route  path="/projects" component={Projects} />
     <Route  path="/blogs" component={Blogs} />
     <Route exact path="*" component={Home} />
-   
-    
     </Switch>
     <Footer></Footer>
     </div>
