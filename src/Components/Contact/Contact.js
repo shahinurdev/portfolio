@@ -3,7 +3,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <section style={{backgroundColor: '#34568B'}} className="allSection">
+        <section style={{backgroundColor: '#34568B'}} className="allSection mt-5">
         <div className="contact">
           <h1>Contact me!</h1>
     

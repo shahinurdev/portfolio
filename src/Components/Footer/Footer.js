@@ -12,9 +12,7 @@ const Footer = () => {
       <h5 className="text-uppercase">Footer Content</h5>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-        voluptatem veniam, est atque cumque eum delectus sint!
+      you can feel free to communicate with me on social media. Here are some social media links
       </p>
     </div>
   
