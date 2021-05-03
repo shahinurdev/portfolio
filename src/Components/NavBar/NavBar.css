@@ -1,5 +1,6 @@
 .navbar {
     height: 100%;
+   
   }
   
   .nav-wrapper {
@@ -25,6 +26,7 @@
   .list-wrapper {
     display: flex;
     align-items: center;
+    
   }
   
   .list-wrapper ul {
@@ -50,7 +52,7 @@
     display: block;
     font-size: 24px;
     padding: 10px 0;
-    color: #dddddd;
+    color: white;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
   }
@@ -97,7 +99,7 @@
   
     .list-wrapper ul li a {
       padding: 5px;
-      color: #000000;
+      /* color: #000000; */
     }
   
     .list-wrapper ul li a:hover {

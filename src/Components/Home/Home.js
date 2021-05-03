@@ -17,7 +17,7 @@ const Home = () => {
             <h1>
               <p>Hi,</p>
               <p>I am Md Shahinur Khan</p>
-              <p>A web developer</p>
+              <p className=" developer" data-text='A web developer'>A web developer</p>
               
             </h1>
               <button>

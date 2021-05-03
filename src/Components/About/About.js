@@ -4,7 +4,7 @@ import shoron from '../../images/shahin.jpg'
 
 const About = () => {
     return (
-        <section style={{backgroundColor: '#92A8D1'}} className="allSection text-center text-lg-start mt-5">
+        <section  className="allSection text-center text-lg-start mt-5">
              <h1>Who am I</h1>
         <div className="container">
             <div className="row">

@@ -5,7 +5,7 @@ import sports from '../../images/sports.png'
 
 const Projects = () => {
     return (
-        <section style={{ backgroundColor: '#009B77' }} className="allSection text-center text-lg-start mt-5">
+        <section  className="allSection text-center text-lg-start mt-5">
              <h1 className="p-4">Projects</h1>
             <div className="container p-4">
                 <div className="row">
@@ -13,9 +13,8 @@ const Projects = () => {
                         <h5> Bike Bazar— <small>A bike selling Application</small>  : <a href="https://bikebazar-53d40.web.app" className="text-warning">Live </a>
                          |  
                         <a className="text-warning" href="https://github.com/shahinurdev/Bike-Bazar">Client code</a> |
-                        <a className="text-warning" href="https://github.com/shahinurdev/Bike-Bazar-Server"> Server Code</a></h5>
-
-                        <img className="img-thumbnail  mb-5 mt-2 " src={bikeBazar} alt=""/>
+                        <a className="text-warning" href="https://github.com/shahinurdev/Bike-Bazar-Server"> Server Code</a></h5>     
+                   <img className="img-thumbnail  mb-5 mt-2 " src={bikeBazar} alt=""/>
                 
                          <p> <strong className="text-white bg-dark">Description</strong>: In this Application, Customers can choose and buy Bikes.
                             The customer can go to the order menu and see what he/she has ordered.
