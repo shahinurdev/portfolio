@@ -1,0 +1,48 @@
+[debug] [2021-05-30T16:56:01.686Z] ----------------------------------------------------------------------
+[debug] [2021-05-30T16:56:01.688Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-30T16:56:01.688Z] CLI Version:   9.12.0
+[debug] [2021-05-30T16:56:01.688Z] Platform:      win32
+[debug] [2021-05-30T16:56:01.688Z] Node Version:  v14.15.3
+[debug] [2021-05-30T16:56:01.689Z] Time:          Sun May 30 2021 22:56:01 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-05-30T16:56:01.689Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-30T16:56:01.695Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-30T16:56:01.695Z] > authorizing via signed-in user (mdshahinurkhan6@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Project\portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using portfolio-e4be9. 
+[debug] [2021-05-30T16:56:19.803Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-e4be9 [none]
+[debug] [2021-05-30T16:56:20.395Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-e4be9 403
+[debug] [2021-05-30T16:56:20.395Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-e4be9 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-05-30T16:56:20.395Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-05-30T16:56:20.607Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project portfolio-e4be9. Please make sure the project exists and your account has permission to access it.

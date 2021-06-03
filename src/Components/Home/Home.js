@@ -9,7 +9,7 @@ import Contact from '../Contact/Contact';
 
 
 const Home = () => {
-    let url = 'https://drive.google.com/file/d/1v-pKltGhu7ZB3OwnxZqdu0iX5cqn0eq4/view?usp=sharing'
+    let url = 'https://drive.google.com/file/d/1-UTz5w7EWuWn1gVj3PSnvX7UJzOpVVbB/view?usp=sharing'
     return (
       <section>
         <section className="home">
