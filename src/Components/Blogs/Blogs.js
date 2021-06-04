@@ -2,9 +2,9 @@ import React from 'react';
 
 const Blogs = () => {
   return (
-    <div>
-      <h3 className='text-white'>Comming soon</h3>
-    </div>
+    <section  className="allSection text-center text-lg-start mt-5">
+      <h3 className='text-white'>Coming soon</h3>
+    </section>
   );
 };
 
